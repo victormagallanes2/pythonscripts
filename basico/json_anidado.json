@@ -1,0 +1,135 @@
+{
+"took": 1,
+"timed_out": false,
+"_shards": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0
+  },
+"hits": {
+  "total": 5,
+  "max_score": 1,
+  "hits": [
+      {
+        "_index": "vpro",
+        "_type": "atm",
+        "_id": "5",
+        "_score": 1,
+        "_source": {
+            "temperatura": "string",
+            "fecha_programada": "2017-04-17T19:24:43.950718",
+            "version_vpro": 1,
+            "velocidad": 4,
+            "reglas": "string2",
+            "IDUUID": 1,
+            "end_point": "string1",
+            "estado": "string",
+            "software_xfs": "string",
+            "so": "string",
+            "location": "19.8489441,-71.650996516",
+            "cantidad_usb": 2,
+            "grupo": "string",
+            "banco": 1,
+            "CPU": "string",
+            "fecha_insercion": "2017-04-17T19:24:43.950671"
+          }
+      },
+      {
+        "_index": "vpro",
+        "_type": "atm",
+        "_id": "2",
+        "_score": 1,
+        "_source": {
+            "temperatura": "string",
+            "fecha_programada": "2017-04-17T19:23:24.488183",
+            "version_vpro": 1,
+            "velocidad": 4,
+            "reglas": "string2",
+            "IDUUID": 1,
+            "end_point": "string1",
+            "estado": "string",
+            "software_xfs": "string",
+            "so": "string",
+            "location": "19.8489441,-71.650996516",
+            "cantidad_usb": 2,
+            "grupo": "string",
+            "banco": 1,
+            "CPU": "string",
+            "fecha_insercion": "2017-04-17T19:23:24.488127"
+          }
+        },
+        {
+          "_index": "vpro",
+          "_type": "atm",
+          "_id": "4",
+          "_score": 1,
+          "_source": {
+                "temperatura": "string",
+                "fecha_programada": "2017-04-17T19:24:07.449779",
+                "version_vpro": 1,
+                "velocidad": 4,
+                "reglas": "string2",
+                "IDUUID": 1,
+                "end_point": "string1",
+                "estado": "string",
+                "software_xfs": "string",
+                "so": "string",
+                "location": "19.8489441,-71.650996516",
+                "cantidad_usb": 2,
+                "grupo": "string",
+                "banco": 1,
+                "CPU": "string",
+                "fecha_insercion": "2017-04-17T19:24:07.449734"
+              }
+          },
+          {
+              "_index": "vpro",
+              "_type": "atm",
+              "_id": "1",
+              "_score": 1,
+              "_source": {
+                    "temperatura": "string",
+                    "fecha_programada": "2017-04-17T19:21:06.898242",
+                    "version_vpro": 3,
+                    "velocidad": 5,
+                    "reglas": "string",
+                    "IDUUID": 2,
+                    "end_point": "string",
+                    "estado": "string",
+                    "software_xfs": "string",
+                    "so": "string",
+                    "location": "19.8489441,-71.650996516",
+                    "cantidad_usb": 6,
+                    "grupo": "string",
+                    "banco": 2,
+                    "CPU": "string",
+                    "fecha_insercion": "2017-04-17T19:21:06.898213"
+                }
+            },
+            {
+                  "_index": "vpro",
+                  "_type": "atm",
+                  "_id": "3",
+                  "_score": 1,
+                  "_source": {
+                        "temperatura": "string",
+                        "fecha_programada": "2017-04-17T19:23:47.306145",
+                        "version_vpro": 1,
+                        "velocidad": 4,
+                        "reglas": "string2",
+                        "IDUUID": 1,
+                        "end_point": "string1",
+                        "estado": "string",
+                        "software_xfs": "string",
+                        "so": "string",
+                        "location": "19.8489441,-71.650996516",
+                        "cantidad_usb": 2,
+                        "grupo": "string",
+                        "banco": 1,
+                        "CPU": "string",
+                        "fecha_insercion": "2017-04-17T19:23:47.306118"
+                      }
+                }
+          ]
+    }
+}
