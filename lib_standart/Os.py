@@ -1,6 +1,11 @@
 import os
 from os import path
 
+""" os te permite
+    - conocer rutas
+    - copiar, mover, eliminar y renombrar
+      archivos y carpetas
+    - comprobar si un objeto es archivo o directorio """
 
 class Os():
     def SaberExistencia(self):

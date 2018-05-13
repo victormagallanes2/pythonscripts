@@ -1,0 +1,10 @@
+Move_id/id,Operacion,debit,credit
+1,Compra de telefono,616,-616
+1,Diligencias,548,986
+1,Mantenimiento,654,-654
+1,Treansporte,654,654
+2,Prestamo,789,-789
+3,Alquiler,489,-789
+4,Gastos varios,789,-789
+5,Pal Pasaje,789,-789
+6,Pa los frescos,789,-789
