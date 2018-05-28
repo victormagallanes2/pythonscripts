@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 
-doc = pd.read_csv('prueba.csv')
+doc = pd.read_csv('transacciones.csv')
 
 df = pd.DataFrame(doc)
 
