@@ -12,5 +12,10 @@ for r in redii:
 
 #print(areas)
 
-x = list(map(area, redii))
-print(x)
+# x = list(map(area, redii))
+# print(x)
+
+# usando lambda
+
+y = list(map(lambda r: math.pi * (r**2), redii))
+print(y)
