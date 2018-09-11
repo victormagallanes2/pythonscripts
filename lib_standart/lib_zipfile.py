@@ -10,7 +10,7 @@ from zipfile import ZipFile
 class Zipfile(object):
     def zip_file(self):
         with ZipFile('comprimido.zip', 'w') as nuevozip:
-            nuevozip.write('archivo.txt')
+            nuevozip.write('../resources/archivo.txt')
         pass
 
     def zip_folder(self, path, ziph):

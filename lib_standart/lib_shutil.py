@@ -9,8 +9,8 @@ import shutil
 
 class Shutil():
     def CopyArchive(self):
-        if(path.exists("archivo.txt")):
-            rutanombre = path.realpath('archivo.txt')
+        if(path.exists("../resources/archivo.txt")):
+            rutanombre = path.realpath('../resources/archivo.txt')
             archivoNuevo = rutanombre + '.bak'
             shutil.copy(rutanombre, archivoNuevo)
         else:
