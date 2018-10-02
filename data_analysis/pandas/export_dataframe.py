@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 # import csv
 doc = pd.read_csv('../../resources/transacciones.csv')

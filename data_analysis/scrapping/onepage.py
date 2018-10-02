@@ -27,4 +27,5 @@ class PythonizaSpider(Spider):
             yield item.load_item()
 
 # se ejecuta con el siguiente comando
-# scrapy runspider onepage.py -o pythoniza.csv -t csv
+# scrapy runspider onepage.py -o ../../resources/pythoniza.csv -t csv
+

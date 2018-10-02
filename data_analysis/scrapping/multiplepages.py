@@ -27,4 +27,4 @@ class ComputrabajoSpider(CrawlSpider):
         item.add_xpath('description', '//*[@id="MainContainer"]/article/section[1]/div[2]/ul/li[3]/text()')
         yield item.load_item()
 
-# scrapy runspider multiplepages.py -o computrabajo.csv -t csv
+# scrapy runspider multiplepages.py -o ../../resources/computrabajo.csv -t csv
