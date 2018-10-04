@@ -1,3 +1,5 @@
+
+
 def argumentos_lista(*args):
     # args es una tupla
     print(args)
