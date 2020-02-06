@@ -7,11 +7,11 @@ import datetime
 import random
 import websockets
 
-async def time(websocket, path):
-    while True:
-        now = datetime.datetime.utcnow().isoformat() + 'Z'
-        await websocket.send(now)
-        await asyncio.sleep(random.random() * 3)
+async def time(websocket, ip_port):
+    lista = ['test1', 'test2']
+    for x in lista:
+        await websocket.send(str(x))
+        await asyncio.sleep(1)
 
 start_server = websockets.serve(time, '127.0.0.1', 5678)
 
