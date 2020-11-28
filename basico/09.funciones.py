@@ -1,9 +1,12 @@
+"""Las son agrupaciones de codigos que realizan una o varias tareas especificas
+   estas pueden recibir parametros de entrada para ser procesados y luego retornar
+   un resultado"""
+
+
 a = 3
 b = 8
 c = 2
-
 lista = [1, 2, 3, 4]
-
 
 def suma(f, r):
 	z = f + r
